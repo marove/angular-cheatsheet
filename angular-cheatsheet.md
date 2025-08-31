@@ -189,7 +189,7 @@
 
 
 
-## Ống Pipes
+## 💧 Pipes
 
 * Son un mecanismo para transformar datos directamente en el template HTML.
 * Se pueden usar los predefinidos por Angular o crear pipes personalizados.
