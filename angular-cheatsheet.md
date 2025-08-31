@@ -51,31 +51,6 @@
 
 
 
-## 🎨 Instalación de Bootstrap
-
-1.  **Instalar Bootstrap y sus dependencias** vía npm:
-
-    ```bash
-    npm install bootstrap jquery popper.js
-    ```
-
-2.  **Configurar en `angular.json`**:
-    Añade las rutas a los ficheros de estilos y scripts en las secciones correspondientes:
-
-    ```json
-    "styles": [
-        "styles.css",
-        "../node_modules/bootstrap/dist/css/bootstrap.css"
-    ],
-    "scripts": [
-        "../node_modules/jquery/dist/jquery.js",
-        "../node_modules/popper.js/dist/umd/popper.js",
-        "node_modules/bootstrap/dist/js/bootstrap.js"
-    ]
-    ```
-
-
-
 ## 🏛️ Arquitectura de Alto Nivel
 
 * **Módulo**: Un bloque de construcción que contiene componentes, rutas, servicios, etc.. Puede haber múltiples módulos y módulos que dependen de otros. Análogo a un paquete de Java o namespace de .NET.
