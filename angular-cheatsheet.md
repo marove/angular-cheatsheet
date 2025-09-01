@@ -1,5 +1,18 @@
 # Angular Cheatsheet
 
+## 💻 Qué es Angular
+
+- Angular es un framework web Front-End.
+
+- Mantenido por un equipo dedicado de Google, Angular proporciona un amplio conjunto de herramientas, API y bibliotecas para simplificar y optimizar el flujo de trabajo de desarrollo.
+
+- Angular ofrece una plataforma sólida sobre la que crear aplicaciones rápidas y fiables que se adaptan tanto al tamaño del equipo como al tamaño de la base de código.
+
+
+**Diferencia entre Angular y AngularJS**:
+
+* Angular 1.x  == AngularJS
+* Angular 2+   == Angular
 
 
 ## 🚀 Instalación
@@ -8,12 +21,16 @@
 
 2.  **Instalar el cliente de Angular (Angular CLI)**:
 
+    Angular CLI es una herramienta de interfaz de línea de comandos que permite crear, desarrollar, probar, implementar y mantener aplicaciones Angular directamente desde un shell de comandos.
+
+    Angular CLI se publica en npm como el paquete @angular/cli e incluye un binario llamado `ng`. Los comandos que invocan `ng` utilizan Angular CLI.
+
     * **Linux/macOS** (con permisos de superusuario):
         ```bash
         sudo npm install -g @angular/cli
         ```
 
-    * **Windows** (en un terminal sin permisos de administrador):
+    * **Windows** (en un terminal **sin** permisos de administrador):
         ```powershell
         npm install -g @angular/cli
         ```
